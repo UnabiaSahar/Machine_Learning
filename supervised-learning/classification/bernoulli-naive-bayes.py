@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from sklearn.naive_bayes import BernoulliNB
 from sklearn.feature_extraction.text import CountVectorizer
-df=pd.read_csv("spam_ham_dataset.csv")
+df=pd.read_csv("data/spam_ham_dataset.csv")
 print(df.shape)
 print(df.columns)
 df= df.drop(['Unnamed: 0'], axis=1)

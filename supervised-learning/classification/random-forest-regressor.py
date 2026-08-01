@@ -13,7 +13,7 @@ from sklearn.tree import plot_tree
 warnings.filterwarnings('ignore')
 
 # 2. Load Dataset
-df= pd.read_csv('Position_Salaries.csv')
+df= pd.read_csv('data/Position_Salaries.csv')
 print(df)
 df.info()
 

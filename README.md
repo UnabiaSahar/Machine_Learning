@@ -2,9 +2,29 @@
 
 Learning machine learning concepts from GeeksforGeeks.
 
-## Classification Algorithms
+## Project Structure
 
-This project implements various classification algorithms:
+```
+supervised-learning/
+├── classification/
+│   ├── bernoulli-naive-bayes.py
+│   ├── binomial-logistic-regression.py
+│   ├── decision-tree.py
+│   ├── guassian-naive-bayes.py
+│   ├── k-nearest-neighbours.py
+│   ├── multinomial-logistic-regression.py
+│   ├── multinomial-naive-bayes.py
+│   ├── random-forest-regressor.py
+│   └── support-vector-machine.py
+└── regression/
+    ├── lasso_ridge_elasticnet.py
+    ├── linear-regression.py
+    ├── multiple-linear-regression.py
+    ├── polynomial-regression.py
+    └── simple-linear-regression.py
+```
+
+## Classification Algorithms
 
 - **Bernoulli Naive Bayes** - `bernoulli-naive-bayes.py`
 - **Binomial Logistic Regression** - `binomial-logistic-regression.py`
@@ -16,10 +36,19 @@ This project implements various classification algorithms:
 - **Random Forest Regressor** - `random-forest-regressor.py`
 - **Support Vector Machine** - `support-vector-machine.py`
 
+## Regression Algorithms
+
+- **Linear Regression** - `linear-regression.py`
+- **Simple Linear Regression** - `simple-linear-regression.py`
+- **Multiple Linear Regression** - `multiple-linear-regression.py`
+- **Polynomial Regression** - `polynomial-regression.py`
+- **Lasso, Ridge & ElasticNet** - `lasso_ridge_elasticnet.py`
+
 ## Datasets
 
-- `spam_ham_dataset.csv` - Spam detection dataset
-- `Position_Salaries.csv` - Salary prediction dataset
+- `data/spam_ham_dataset.csv` - Spam detection dataset
+- `data/Position_Salaries.csv` - Salary prediction dataset
+- `data/data.csv` - Generic dataset
 
 ## Resources
 
