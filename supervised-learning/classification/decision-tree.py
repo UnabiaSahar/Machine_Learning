@@ -1,4 +1,3 @@
-# pip install -U scikit-learn
 import numpy as np
 import pandas as pd
 from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
